@@ -1,5 +1,10 @@
 # Frameworking-FTW
 
+https://tinevancorenland.github.io/Frameworking-FTW/
+
+
+Write which framework u used and what you found easy / difficult:
+
 I choose Bootstrap to work with. 
 
 I followed the steps of W3schools en adapted everything I came across en thought to be usefull. After 80% of the info, I came across "cards" and adapted some more. 
