@@ -25,69 +25,196 @@
     <title>When I'm done frameworking I'm gonna...</title>
   </head>
   <body>
-    <div>
-      <i class="fas fa-umbrella-beach"></i>
-      <h1>Beach</h1>
-      <p>Smell the sea and feel the sky. <br />Let your soul and spirit fly.</p>
-      <a href="#">Beach please.</a>
-    </div>
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark m-3">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">I</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Like</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Navbars</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
 
-    <div>
-      <i class="fas fa-bed"></i>
-      <h1>Sleep</h1>
-      <p>
-        Today, I realized that the word "bed" actually looks like a bed.
-      </p>
-      <a href="#">Namastay in bed.</a>
-    </div>
+    <div class="container text-center bg-light">
+      <!-- class container is fixed width, for entire viewport use container-fluid class.
+    class text-center centers all text-->
 
-    <div>
-      <i class="fas fa-campground"></i>
-      <h1>Camping</h1>
-      <p>I am going camping untill I forget all of my passwords.</p>
-      <a href="#">Alpaca my bags.</a>
-    </div>
+      <div class="card-deck p-2">
+        <div class="row">
+          <!--row1-->
 
-    <div>
-      <i class="fas fa-headphones-alt"></i>
-      <h1>Music</h1>
-      <p>
-        Ohowow listen to the music. Music is the answer... to your problems...
-        Please don't stop the music.
-      </p>
-      <a href="#">Volume on. World off. </a>
-    </div>
+          <div class="col-sm-3 card p-2 pt-4">
+            <!--column, medium devices, 3 3 3 3 adds up to 12 for entire width-->
+            <i class="fas fa-umbrella-beach"></i>
+            <div class="card-body">
+              <h1>Beach</h1>
+              <p class="text-secondary">
+                Smell the sea and feel the sky. <br />Let your soul and spirit
+                fly.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button
+                type="button"
+                class=" btn btn-primary btn-sm text-uppercase stretched-link"
+              >
+                Beach please.
+              </button>
+            </div>
+          </div>
 
-    <div>
-      <i class="fas fa-hot-tub"></i>
-      <h1>Hot tub</h1>
-      <p>For every skinny dip or chunky dunk.</p>
-      <a href="#">Hot hot hot</a>
-    </div>
+          <div class="col-sm-3 card p-2 pt-4">
+            <i class="fas fa-bed"></i>
+            <div class="card-body">
+              <h1>Sleep</h1>
+              <p class="text-secondary">
+                Today, I realized that the word "bed" actually looks like a bed.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button
+                type="button"
+                class="btn btn-primary btn-sm text-uppercase stretched-link"
+              >
+                Namastay in bed.
+              </button>
+            </div>
+          </div>
 
-    <div>
-      <i class="fas fa-cocktail"></i>
-      <h1>Bar</h1>
-      <p>Great stories never start with someone eating a salad...</p>
-      <a href="#">You had me at merlot.</a>
-    </div>
+          <div class="col-sm-3 card p-2 pt-4">
+            <i class="fas fa-campground"></i>
+            <div class="card-body">
+              <h1>Camping</h1>
+              <p class="text-secondary">
+                I am going camping untill I forget all of my passwords.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button
+                type="button"
+                class="btn btn-primary btn-sm text-uppercase stretched-link"
+              >
+                Alpaca my bags.
+              </button>
+            </div>
+          </div>
 
-    <div>
-      <i class="fas fa-plane-departure"></i>
-      <h1>Work tip</h1>
-      <p>
-        Stand up. <br />Stretch. <br />Take a walk. <br />Go to the airport.
-        <br />Get on a plane. <br />Never return.
-      </p>
-      <a href="#">Fly baby</a>
-    </div>
+          <div class="col-sm-3 card p-2 pt-4">
+            <i class="fas fa-headphones-alt"></i>
+            <div class="card-body">
+              <h1>Music</h1>
+              <p class="text-secondary">
+                Ohowow listen to the music. Music is the answer... to your
+                problems... Please don't stop the music.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button
+                type="button"
+                class="btn btn-primary btn-sm text-uppercase stretched-link"
+              >
+                Volume on. World off.
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--row1-->
 
-    <div>
-      <i class="fas fa-laptop-code"></i>
-      <h1>Keep going</h1>
-      <p>Because you are the semicolon to my statements.</p>
-      <a href="#">In it</a>
+        <div class="row mt-5">
+          <!--row2-->
+
+          <div class="col-sm-3 card p-2 pt-4">
+            <!--same as first row-->
+            <i class="fas fa-hot-tub"></i>
+            <div class="card-body">
+              <h1>Hot tub</h1>
+              <p class="text-secondary">For every skinny dip or chunky dunk.</p>
+            </div>
+            <div class="card-footer">
+              <button
+                type="button"
+                class="btn btn-primary btn-sm text-uppercase stretched-link"
+              >
+                Hot hot hot.
+              </button>
+            </div>
+          </div>
+
+          <div class="col-sm-3 card p-2 pt-4">
+            <i class="fas fa-cocktail"></i>
+            <div class="card-body">
+              <h1>Bar</h1>
+              <p class="text-secondary">
+                Great stories never start with someone eating a salad...
+              </p>
+            </div>
+            <div class="card-footer">
+              <button
+                type="button"
+                class="btn btn-primary btn-sm text-uppercase stretched-link"
+              >
+                You had me at merlot.
+              </button>
+            </div>
+          </div>
+
+          <div class="col-sm-3 card p-2 pt-4">
+            <i class="fas fa-plane-departure"></i>
+            <div class="card-body">
+              <h1>Work tip</h1>
+              <p class="text-secondary">
+                Stand up. <br />Stretch. <br />Take a walk. <br />Go to the
+                airport. <br />Get on a plane. <br />Never return.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button
+                type="button"
+                class="btn btn-primary btn-sm text-uppercase stretched-link"
+              >
+                Fly baby.
+              </button>
+            </div>
+          </div>
+
+          <div class="col-sm-3 card p-2 pt-4">
+            <i class="fas fa-laptop-code"></i>
+            <div class="card-body">
+              <h1>Keep going</h1>
+              <p class="text-secondary">
+                Because you are the semicolon to my statements.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button
+                type="button"
+                class="btn btn-primary btn-sm text-uppercase stretched-link"
+              >
+                In it.
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--row2-->
+      </div>
+      <!--card deck -->
     </div>
+    <!--container-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
