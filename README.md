@@ -1,6 +1,6 @@
 # Frameworking-FTW
 
-# Assignment
+## Assignment
 
 From bootstrap to materialize, the world has lots of css frameworks, but what is a `CSS Framework`?
 
