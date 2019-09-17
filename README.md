@@ -1,4 +1,4 @@
-# Frameworking-FTW
+# Frameworking
 
 ## Assignment
 
