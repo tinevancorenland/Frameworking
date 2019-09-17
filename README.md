@@ -23,7 +23,7 @@ Get started:
 
 ## Result 
 
-[This is my result](https://tinevancorenland.github.io/Frameworking-FTW/)
+[This is my result](https://tinevancorenland.github.io/Frameworking/)
 
 I choose Bootstrap to work with. 
 
